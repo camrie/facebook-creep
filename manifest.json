@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Facebook Creep Mode",
+    "version": "1.0.0",
+    "description": "Disables the add friend button on Facebook",
+    "page_action": {
+        "default_title": "Facebook Creep Mode",
+        "default_popup": "popup.html",
+        "default_icon": "magnify.png"
+    },
+    "background": {
+        "scripts": [
+            "/background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "storage",
+        "alarms",
+        "declarativeContent",
+        "https://www.facebook.com/",
+        "http://www.facebook.com/"
+    ]
+}
