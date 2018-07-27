@@ -20,5 +20,4 @@ function creep() {
     disableLikeButton();
     disableAddFriendButton();
 }
-
 setInterval(creep, 1000);
