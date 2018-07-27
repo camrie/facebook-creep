@@ -3,6 +3,9 @@
     "name": "Facebook Creep Mode",
     "version": "1.0.0",
     "description": "Disables the add friend and like buttons on Facebook",
+    "icons": {
+        "128":"magnify.png"
+    },
     "page_action": {
         "default_title": "Facebook Creep Mode",
         "default_popup": "popup.html",
